@@ -15,29 +15,23 @@ int main() {
     printf("enter a case:");
     scanf("%d",&n);
 
-    // Calculations
-    int sum = sum=a+b;
-    int diff = diff=a-b;
-    int mult = a*b;
-    float div = a/b;
-
     // Display results
     switch(n)
     {
         case 1:
-        printf("%d+%d=%d",a,b,sum);
+        printf("%d+%d=%d",a,b,(a+b)));
         break;
 
         case 2:
-        printf("%d-%d=%d",a,b,diff);
+        printf("%d-%d=%d",a,b,(a-b));
         break;
 
         case 3:
-        printf("%d*%d=%d",a,b,mult);
+        printf("%d*%d=%d",a,b,(a*b));
         break;
 
         case 4:
-        printf("%d/%d=%f",a,b,div);
+        printf("%d/%d=%f",a,b,(a/b));
         break;
 
         default:
