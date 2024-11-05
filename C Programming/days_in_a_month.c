@@ -14,7 +14,7 @@ int main() {
     
     }
     else{
-        printf("not a month");
+        printf("not a valid month. Please enter a value between 1 and 12");
     }
 
 }
