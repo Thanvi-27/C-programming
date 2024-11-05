@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main() {
+
+    // Read Input Values
     int a, b;
     
     printf("enter a value:");
@@ -13,11 +15,13 @@ int main() {
     printf("enter a case:");
     scanf("%d",&n);
 
+    // Calculations
     int sum = sum=a+b;
     int diff = diff=a-b;
     int mult = a*b;
     float div = a/b;
 
+    // Display results
     switch(n)
     {
         case 1:
