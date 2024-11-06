@@ -10,9 +10,9 @@ int main() {
 
     }
     if(num==rev){
-        printf("%d is a palindrome number");
+        printf("%d is a palindrome number",num);
     }
     else {
-        printf("%d is not a palindrome number");
+        printf("%d is not a palindrome number",num);
     }
 }
