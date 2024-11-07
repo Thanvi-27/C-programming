@@ -6,6 +6,7 @@ int main() {
     int flag=0;
     printf("enter a string:");
     scanf("%s",string);
+    length=strlen(string);
     for(i=0;i<length;i++){
         if(string[i]!=string[length-i-1]){
         flag=1;
