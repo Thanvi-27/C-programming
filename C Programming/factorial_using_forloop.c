@@ -7,5 +7,5 @@ int main() {
     for(int i=1;i<=n;i++){
     fact=fact*i;
     }
-   printf("factorial is %d",fact);
+   printf("factorial of %d is %d",n,fact);
 }
